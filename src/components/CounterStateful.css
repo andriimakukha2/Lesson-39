@@ -1,0 +1,36 @@
+/* src/components/CounterStateful.css */
+.counter {
+    background-color: #282c34; /* Темний фон */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px; /* Обмеження ширини */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #61dafb; /* Світло-блакитний текст */
+    transition: background-color 0.3s;
+}
+
+.counter:hover {
+    background-color: #3c4048; /* Світліший фон при наведенні */
+}
+
+.count {
+    font-size: 2rem; /* Збільшення розміру тексту */
+    margin: 15px 0;
+    text-align: center; /* Центрування тексту */
+}
+
+button {
+    background-color: #61dafb; /* Кнопки з блакитним фоном */
+    color: white; /* Білий текст на кнопках */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px; /* Відстань між кнопками */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4ca3b0; /* Темніший відтінок при наведенні */
+}

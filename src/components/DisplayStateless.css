@@ -1,0 +1,26 @@
+/* src/components/DisplayStateless.css */
+.display {
+    background-color: #282c34; /* Темний фон */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px; /* Обмеження ширини */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #61dafb; /* Світло-блакитний текст */
+    transition: background-color 0.3s;
+}
+
+.display:hover {
+    background-color: #3c4048; /* Світліший фон при наведенні */
+}
+
+h2 {
+    font-size: 1.5rem; /* Збільшення заголовка */
+    margin-bottom: 10px;
+    text-align: center; /* Центрування заголовка */
+}
+
+p {
+    font-size: 1.2rem; /* Збільшення тексту */
+    text-align: center; /* Центрування тексту */
+}
